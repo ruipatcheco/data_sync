@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "ec3e2603-9a0c-4e31-9d28-b9417f250cc9",
+		"name": "Ometria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26639997"
+	},
+	"item": [
+		{
+			"name": "Create new record",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "2ca89228-266a-4c4c-b4ec-d6c2bdadfdf0",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n    \"id\": \"2343fgfdg\",\n    \"firstname\": \"John\",\n    \"lastname\": \"Smith\",\n    \"email\": \"hello@world.com\",\n    \"status\": \"subscribed\"\n    }\n]"
+				},
+				"url": {
+					"raw": "https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record",
+					"protocol": "https",
+					"host": [
+						"api-demo-ingest",
+						"ew1-prod",
+						"ew1",
+						"prod",
+						"ometria",
+						"cloud"
+					],
+					"path": [
+						"record"
+					]
+				},
+				"description": "[https://mailchimp.com/developer/marketing/api/list-members/](https://mailchimp.com/developer/marketing/api/list-members/)"
+			},
+			"response": [
+				{
+					"name": "Create new record",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "2ca89228-266a-4c4c-b4ec-d6c2bdadfdf0",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n    \"id\": \"2343fgfdg\",\n    \"firstname\": \"John\",\n    \"lastname\": \"Smith\",\n    \"email\": \"hello@world.com\",\n    \"status\": \"subscribed\"\n    }\n]"
+						},
+						"url": {
+							"raw": "https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record",
+							"protocol": "https",
+							"host": [
+								"api-demo-ingest",
+								"ew1-prod",
+								"ew1",
+								"prod",
+								"ometria",
+								"cloud"
+							],
+							"path": [
+								"record"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 14 Sep 2023 19:41:21 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=\"utf-8\""
+						},
+						{
+							"key": "Content-Length",
+							"value": "31"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "TornadoServer/6.1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"Ok\",\n    \"response\": 1\n}"
+				}
+			]
+		}
+	]
+}

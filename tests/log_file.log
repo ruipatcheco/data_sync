@@ -1,0 +1,284 @@
+2023-09-21 01:36:33,842 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_1: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:36:33,842 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_0: Starting sync on list 829e85fee6.
+2023-09-21 01:36:33,845 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,845 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,846 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_0: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:36:33,846 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,847 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_0: Starting sync on list 829e85fee6.
+2023-09-21 01:36:33,847 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,855 - logger.loggingModule - INFO - Thread MainThread: Starting sync on list veryprettylistid123.
+2023-09-21 01:36:33,856 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/veryprettylistid123/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,864 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-2_0: Starting sync on list <Mock name='mock.job_details.list_id' id='4389456768'>.
+2023-09-21 01:36:33,865 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/<Mock name='mock.job_details.list_id' id='4389456768'>/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,865 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/veryprettylistid123/members failed with exception: URL has an invalid label.
+2023-09-21 01:36:33,867 - logger.loggingModule - ERROR - Request to https://.api.mailchimp.com/3.0/lists/veryprettylistid123/members failed with exception: URL has an invalid label.
+2023-09-21 01:38:43,801 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_1: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:38:43,802 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_0: Starting sync on list 829e85fee6.
+2023-09-21 01:38:44,125 - logger.loggingModule - ERROR - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: 401 Client Error: Unauthorized for url: https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members?fields=total_items
+2023-09-21 01:38:44,246 - logger.loggingModule - ERROR - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: 401 Client Error: Unauthorized for url: https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members?fields=total_items
+2023-09-21 01:38:44,248 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_0: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:38:44,249 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_1: Starting sync on list 829e85fee6.
+2023-09-21 01:38:44,507 - logger.loggingModule - ERROR - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: 401 Client Error: Unauthorized for url: https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members?fields=total_items&since_last_changed=2023-09-21T01%3A38%3A43.801644
+2023-09-21 01:38:44,571 - logger.loggingModule - ERROR - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: 401 Client Error: Unauthorized for url: https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members?fields=total_items&since_last_changed=2023-09-21T01%3A38%3A43.802342
+2023-09-21 01:39:23,380 - logger.loggingModule - ERROR - Request to https://us9.api.mailchimp.com/3.0/lists/veryprettylistid123/members failed with exception: 401 Client Error: Unauthorized for url: https://us9.api.mailchimp.com/3.0/lists/veryprettylistid123/members?fields=total_items&since_last_changed=2023-09-14T10%3A00%3A00%2B00%3A00
+2023-09-21 01:54:50,292 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_1: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:54:50,293 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_0: Starting sync on list 829e85fee6.
+2023-09-21 01:54:50,362 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/829e85fee6/members?fields=total_items (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105cd1520>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:54:50,362 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/1a2d7ebf82/members?fields=total_items (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105cd13d0>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:54:50,363 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_0: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:54:50,364 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_1: Starting sync on list 829e85fee6.
+2023-09-21 01:54:50,367 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/1a2d7ebf82/members?fields=total_items&since_last_changed=2023-09-21T01%3A54%3A50.293209 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105cb6f70>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:54:50,368 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/829e85fee6/members?fields=total_items&since_last_changed=2023-09-21T01%3A54%3A50.293481 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105cd32b0>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:55:37,963 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_1: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:55:37,964 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_0: Starting sync on list 829e85fee6.
+2023-09-21 01:55:37,973 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/1a2d7ebf82/members?fields=total_items (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1045bfc10>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:55:37,974 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/829e85fee6/members?fields=total_items (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1045bfa00>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:55:37,974 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_0: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:55:37,975 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-1_1: Starting sync on list 829e85fee6.
+2023-09-21 01:55:37,978 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/1a2d7ebf82/members?fields=total_items&since_last_changed=2023-09-21T01%3A55%3A37.963496 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10457a8b0>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:55:37,978 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/829e85fee6/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/829e85fee6/members?fields=total_items&since_last_changed=2023-09-21T01%3A55%3A37.964092 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x104587b20>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:55:52,806 - logger.loggingModule - ERROR - Request to https://f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members failed with exception: HTTPSConnectionPool(host='f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com', port=443): Max retries exceeded with url: /3.0/lists/1a2d7ebf82/members?fields=total_items&since_last_changed=2023-09-14T10%3A00%3A00%2B00%3A00 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x10467ec10>: Failed to resolve 'f1dc71be5fac0c8717aaa7b077964c95-us9.api.mailchimp.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-09-21 01:57:08,031 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_1: Starting sync on list 1a2d7ebf82.
+2023-09-21 01:57:08,031 - logger.loggingModule - INFO - Thread ThreadPoolExecutor-0_0: Starting sync on list 829e85fee6.
+2023-09-21 01:57:08,671 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members was successful.
+2023-09-21 01:57:08,675 - logger.loggingModule - INFO - List 829e85fee6 has never been synced and from that time until now, 49 members were added/updated.
+2023-09-21 01:57:08,761 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:08,764 - logger.loggingModule - INFO - List 1a2d7ebf82 has never been synced and from that time until now, 50081 members were added/updated.
+2023-09-21 01:57:09,014 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members was successful.
+2023-09-21 01:57:09,017 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:09,017 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:09,177 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:09,180 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:09,180 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:09,918 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:09,919 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:10,504 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members was successful.
+2023-09-21 01:57:10,505 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:10,506 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:10,508 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:10,508 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:10,508 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:10,737 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:10,744 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:11,240 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members was successful.
+2023-09-21 01:57:11,241 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:11,243 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:11,244 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:11,244 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:11,245 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:11,536 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:11,538 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:11,874 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members was successful.
+2023-09-21 01:57:11,878 - logger.loggingModule - INFO - Adding/updating 9 members to ometria's database.
+2023-09-21 01:57:11,878 - logger.loggingModule - INFO - Created / updated 9 members.
+2023-09-21 01:57:11,944 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:11,947 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:11,947 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:12,125 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:12,182 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:12,443 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/829e85fee6/members was successful.
+2023-09-21 01:57:12,446 - logger.loggingModule - INFO - Adding/updating 0 members to ometria's database.
+2023-09-21 01:57:12,597 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:12,598 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:12,599 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:12,867 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:13,386 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:13,389 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:13,390 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:13,663 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:14,305 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:14,310 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:14,310 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:14,569 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:15,110 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:15,112 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:15,112 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:15,371 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:15,932 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:15,936 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:15,936 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:16,170 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:16,544 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:16,546 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:16,546 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:16,776 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:17,265 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:17,269 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:17,269 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:17,486 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:17,977 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:17,981 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:17,982 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:18,204 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:18,592 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:18,594 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:18,594 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:18,823 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:19,313 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:19,317 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:19,317 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:19,540 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:20,130 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:20,132 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:20,132 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:20,361 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:20,846 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:20,848 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:20,849 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:21,078 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:21,460 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:21,462 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:21,462 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:21,679 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:22,073 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:22,074 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:22,074 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:22,287 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:22,690 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:22,693 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:22,694 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:22,916 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:23,404 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:23,405 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:23,406 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:23,608 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:24,122 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:24,123 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:24,123 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:24,385 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:24,839 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:24,841 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:24,841 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:25,052 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:25,456 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:25,460 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:25,460 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:25,694 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:26,170 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:26,172 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:26,172 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:26,401 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:26,784 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:26,787 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:26,788 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:27,032 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:27,706 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:27,709 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:27,710 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:27,948 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:28,426 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:28,430 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:28,430 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:28,662 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:29,039 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:29,042 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:29,043 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:29,288 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:29,688 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:29,690 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:29,690 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:29,905 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:30,474 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:30,478 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:30,479 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:30,695 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:31,293 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:31,297 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:31,297 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:31,534 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:31,954 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:31,957 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:31,957 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:32,184 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:32,573 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:32,576 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:32,576 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:32,810 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:33,341 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:33,345 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:33,346 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:33,581 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:33,984 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:33,987 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:33,987 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:34,237 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:35,693 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:35,695 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:35,695 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:35,924 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:36,411 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:36,413 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:36,413 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:36,643 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:37,332 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:37,333 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:37,334 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:37,574 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:38,049 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:38,053 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:38,053 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:38,280 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:38,672 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:38,674 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:38,674 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:38,897 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:39,590 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:39,593 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:39,594 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:39,810 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:40,304 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:40,308 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:40,308 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:40,542 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:41,021 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:41,025 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:41,025 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:41,259 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:41,735 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:41,737 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:41,737 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:41,977 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:42,454 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:42,457 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:42,458 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:42,698 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:43,107 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:43,108 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:43,109 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:43,323 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:43,775 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:43,778 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:43,778 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:44,007 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:44,501 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:44,504 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:44,504 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:44,712 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:45,218 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:45,220 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:45,221 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:45,426 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:45,933 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:45,935 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:45,935 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:46,150 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:46,650 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:46,652 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:46,652 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:46,874 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:47,367 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:47,369 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:47,369 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:47,627 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:48,190 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:48,193 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:48,193 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:48,436 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:48,953 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:48,955 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:48,955 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:49,181 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
+2023-09-21 01:57:49,724 - logger.loggingModule - INFO - Request to https://us9.api.mailchimp.com/3.0/lists/1a2d7ebf82/members was successful.
+2023-09-21 01:57:49,726 - logger.loggingModule - INFO - Adding/updating 10 members to ometria's database.
+2023-09-21 01:57:49,727 - logger.loggingModule - INFO - Created / updated 10 members.
+2023-09-21 01:57:49,964 - logger.loggingModule - INFO - Request to https://api-demo-ingest.ew1-prod.ew1.prod.ometria.cloud/record was successful.
