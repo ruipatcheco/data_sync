@@ -121,6 +121,3 @@ Replace `container-id` with the actual ID of the running container, which you ca
 
 - Special thanks to the MailChimp and Ometria APIs for making data synchronization possible.
 - The project was inspired by the need for efficient email marketing campaign management.
-
-
-Certainly! Here's an updated README section regarding the Dockerfile and how to use it:
