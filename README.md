@@ -25,7 +25,12 @@ Before you start, make sure you have the following prerequisites:
 
 ### Installation
 
-1. Download and extract the tar.gz file
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
+   ```
 
 2. Install dependencies:
 
